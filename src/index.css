@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background: #202020;
+    color: white;
+}
+
+.progress {
+    animation: progress 1s infinite linear;
+}
+
+.left-right {
+    transform-origin: 0% 50%;
+}
+
+@keyframes progress {
+    0% {
+        transform: translateX(0) scaleX(0);
+    }
+
+    40% {
+        transform: translateX(0) scaleX(0.4);
+    }
+
+    100% {
+        transform: translateX(100%) scaleX(0.5);
+    }
+}
+
+.react-datepicker__header {
+    text-align: center;
+    background-color: #cdffbc;
+    border-bottom: 0px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    padding-top: 8px;
+    position: relative;
+
+}
+
+.react-datepicker__today-button {
+    background: #3e82cf;
+    border-top: 0px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px 0;
+    clear: left;
+}
+
+.react-datepicker {
+    font-family: system-ui;
+    font-size: 1rem;
+    background-color: rgb(255, 255, 255);
+    color: #000;
+    border: 0px;
+    border-radius: 0;
+    display: inline-block;
+    position: relative;
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px solid #73AD21;
+    font-weight: bold;
+}

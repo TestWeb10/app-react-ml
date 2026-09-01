@@ -1,0 +1,378 @@
+﻿{
+    "c_FiguraTransporte": {
+        "data": [
+            {
+                "Clave figura transporte": "01",
+                "Descripcion": "Operador"
+            },
+            {
+                "Clave figura transporte": "02",
+                "Descripcion": "Propietario"
+            },
+            {
+                "Clave figura transporte": "03",
+                "Descripcion": "Arrendador"
+            },
+            {
+                "Clave figura transporte": "04",
+                "Descripcion": "Notificado"
+            }
+        ]
+    },
+    "c_ConfigAutotransporte": {
+        "data": [
+            {
+                "Clave nomenclatura": "VL",
+                "Descripcion": "Vehículo ligero de carga (2 llantas en el eje delantero y 2 llantas en el eje trasero)",
+                "Numero de ejes": "02",
+                "Numero de llantas": "04",
+                "Remolque": "0, 1"
+            },
+            {
+                "Clave nomenclatura": "C2",
+                "Descripcion": "Camión Unitario (2 llantas en el eje delantero y 4 llantas en el eje trasero)",
+                "Numero de ejes": "02",
+                "Numero de llantas": "06",
+                "Remolque": "0"
+            },
+            {
+                "Clave nomenclatura": "C3",
+                "Descripcion": "Camión Unitario (2 llantas en el eje delantero y 6 o 8 llantas en los dos ejes traseros)",
+                "Numero de ejes": "03",
+                "Numero de llantas": "8 o 10",
+                "Remolque": "0"
+            },
+            {
+                "Clave nomenclatura": "C2R2",
+                "Descripcion": "Camión-Remolque (6 llantas en el camión y 8 llantas en remolque)",
+                "Numero de ejes": "04",
+                "Numero de llantas": "14",
+                "Remolque": "1"
+            },
+            {
+                "Clave nomenclatura": "C3R2",
+                "Descripcion": "Camión-Remolque (10 llantas en el camión y 8 llantas en remolque)",
+                "Numero de ejes": "05",
+                "Numero de llantas": "18",
+                "Remolque": "1"
+            },
+            {
+                "Clave nomenclatura": "C2R3",
+                "Descripcion": "Camión-Remolque (6 llantas en el camión y 12 llantas en remolque)",
+                "Numero de ejes": "05",
+                "Numero de llantas": "18",
+                "Remolque": "1"
+            },
+            {
+                "Clave nomenclatura": "C3R3",
+                "Descripcion": "Camión-Remolque (10 llantas en el camión y 12 llantas en remolque)",
+                "Numero de ejes": "06",
+                "Numero de llantas": "22",
+                "Remolque": "1"
+            },
+            {
+                "Clave nomenclatura": "T2S1",
+                "Descripcion": "Tractocamión Articulado (6 llantas en el tractocamión, 4 llantas en el semirremolque)",
+                "Numero de ejes": "03",
+                "Numero de llantas": "10",
+                "Remolque": "1"
+            },
+            {
+                "Clave nomenclatura": "T2S2",
+                "Descripcion": "Tractocamión Articulado (6 llantas en el tractocamión, 8 llantas en el semirremolque)",
+                "Numero de ejes": "04",
+                "Numero de llantas": "14",
+                "Remolque": "1"
+            },
+            {
+                "Clave nomenclatura": "T2S3",
+                "Descripcion": "Tractocamión Articulado (6 llantas en el tractocamión, 12 llantas en el semirremolque)",
+                "Numero de ejes": "05",
+                "Numero de llantas": "18",
+                "Remolque": "1"
+            },
+            {
+                "Clave nomenclatura": "T3S1",
+                "Descripcion": "Tractocamión Articulado (10 llantas en el tractocamión, 4 llantas en el semirremolque)",
+                "Numero de ejes": "04",
+                "Numero de llantas": "14",
+                "Remolque": "1"
+            },
+            {
+                "Clave nomenclatura": "T3S2",
+                "Descripcion": "Tractocamión Articulado (10 llantas en el tractocamión, 8 llantas en el semirremolque)",
+                "Numero de ejes": "05",
+                "Numero de llantas": "18",
+                "Remolque": "1"
+            },
+            {
+                "Clave nomenclatura": "T3S3",
+                "Descripcion": "Tractocamión Articulado (10 llantas en el tractocamión, 12 llantas en el semirremolque)",
+                "Numero de ejes": "06",
+                "Numero de llantas": "22",
+                "Remolque": "1"
+            },
+            {
+                "Clave nomenclatura": "T2S1R2",
+                "Descripcion": "Tractocamión Semirremolque-Remolque (6 llantas en el tractocamión, 4 llantas en el semirremolque y 8 llantas en el remolque)",
+                "Numero de ejes": "05",
+                "Numero de llantas": "18",
+                "Remolque": "1"
+            },
+            {
+                "Clave nomenclatura": "T2S2R2",
+                "Descripcion": "Tractocamión Semirremolque-Remolque (6 llantas en el tractocamión, 8 llantas en el semirremolque y 8 llantas en el remolque)",
+                "Numero de ejes": "06",
+                "Numero de llantas": "22",
+                "Remolque": "1"
+            },
+            {
+                "Clave nomenclatura": "T2S1R3",
+                "Descripcion": "Tractocamión Semirremolque-Remolque (6 llantas en el tractocamión, 4 llantas en el semirremolque y 12 llantas en el remolque)",
+                "Numero de ejes": "06",
+                "Numero de llantas": "22",
+                "Remolque": "1"
+            },
+            {
+                "Clave nomenclatura": "T3S1R2",
+                "Descripcion": "Tractocamión Semirremolque-Remolque (10 llantas en el tractocamión, 4 llantas en el semirremolque y 8 llantas en el remolque)",
+                "Numero de ejes": "06",
+                "Numero de llantas": "22",
+                "Remolque": "1"
+            },
+            {
+                "Clave nomenclatura": "T3S1R3",
+                "Descripcion": "Tractocamión Semirremolque-Remolque (10 llantas en el tractocamión, 4 llantas en el semirremolque y 12 llantas en el remolque)",
+                "Numero de ejes": "07",
+                "Numero de llantas": "26",
+                "Remolque": "1"
+            },
+            {
+                "Clave nomenclatura": "T3S2R2",
+                "Descripcion": "Tractocamión Semirremolque-Remolque (10 llantas en el tractocamión, 8 llantas en el semirremolque y 8 llantas en el remolque)",
+                "Numero de ejes": "07",
+                "Numero de llantas": "26",
+                "Remolque": "1"
+            },
+            {
+                "Clave nomenclatura": "T3S2R3",
+                "Descripcion": "Tractocamión Semirremolque-Remolque (10 llantas en el tractocamión, 8 llantas en el semirremolque y 12 llantas en el remolque)",
+                "Numero de ejes": "08",
+                "Numero de llantas": "30",
+                "Remolque": "1"
+            },
+            {
+                "Clave nomenclatura": "T3S2R4",
+                "Descripcion": "Tractocamión Semirremolque-Remolque (10 llantas en el tractocamión, 8 llantas en el semirremolque y 16 llantas en el remolque)",
+                "Numero de ejes": "09",
+                "Numero de llantas": "34",
+                "Remolque": "1"
+            },
+            {
+                "Clave nomenclatura": "T2S2S2",
+                "Descripcion": "Tractocamión Semirremolque-Semirremolque (6 llantas en el tractocamión, 8 llantas en el semirremolque delantero y 8 llantas en el semirremolque trasero)",
+                "Numero de ejes": "06",
+                "Numero de llantas": "22",
+                "Remolque": "1"
+            },
+            {
+                "Clave nomenclatura": "T3S2S2",
+                "Descripcion": "Tractocamión Semirremolque-Semirremolque (10 llantas en el tractocamión, 8 llantas en el semirremolque delantero y 8 llantas en el semirremolque trasero)",
+                "Numero de ejes": "07",
+                "Numero de llantas": "26",
+                "Remolque": "1"
+            },
+            {
+                "Clave nomenclatura": "T3S3S2",
+                "Descripcion": "Tractocamión Semirremolque-Semirremolque (10 llantas en el tractocamión, 12 llantas en el semirremolque delantero y 8 llantas en el semirremolque trasero)",
+                "Numero de ejes": "08",
+                "Numero de llantas": "30",
+                "Remolque": "1"
+            },
+            {
+                "Clave nomenclatura": "OTROEVGP",
+                "Descripcion": "Especializado de carga Voluminosa y/o Gran Peso",
+                "Remolque": "0, 1"
+            },
+            {
+                "Clave nomenclatura": "OTROSG",
+                "Descripcion": "Servicio de Grúas",
+                "Remolque": "0"
+            },
+            {
+                "Clave nomenclatura": "GPLUTA",
+                "Descripcion": "Grúa de Pluma Tipo A",
+                "Remolque": "0"
+            },
+            {
+                "Clave nomenclatura": "GPLUTB",
+                "Descripcion": "Grúa de Pluma Tipo B",
+                "Remolque": "0"
+            },
+            {
+                "Clave nomenclatura": "GPLUTC",
+                "Descripcion": "Grúa de Pluma Tipo C",
+                "Remolque": "0"
+            },
+            {
+                "Clave nomenclatura": "GPLUTD",
+                "Descripcion": "Grúa de Pluma Tipo D",
+                "Remolque": "0"
+            },
+            {
+                "Clave nomenclatura": "GPLATA",
+                "Descripcion": "Grúa de Plataforma Tipo A",
+                "Remolque": "0"
+            },
+            {
+                "Clave nomenclatura": "GPLATB",
+                "Descripcion": "Grúa de Plataforma Tipo B",
+                "Remolque": "0"
+            },
+            {
+                "Clave nomenclatura": "GPLATC",
+                "Descripcion": "Grúa de Plataforma Tipo C",
+                "Remolque": "0"
+            },
+            {
+                "Clave nomenclatura": "GPLATD",
+                "Descripcion": "Grúa de Plataforma Tipo D",
+                "Remolque": "0"
+            }
+        ]
+    },
+    "c_TipoPermiso": {
+        "data": [
+            {
+                "Clave": "TPAF01",
+                "Descripcion": "Autotransporte Federal de carga general.",
+                "Clave transporte": "01"
+            },
+            {
+                "Clave": "TPAF02",
+                "Descripcion": "Transporte privado de carga.",
+                "Clave transporte": "01"
+            },
+            {
+                "Clave": "TPAF03",
+                "Descripcion": "Autotransporte Federal de Carga Especializada de materiales y residuos peligrosos.",
+                "Clave transporte": "01"
+            },
+            {
+                "Clave": "TPAF04",
+                "Descripcion": "Transporte de automóviles sin rodar en vehículo tipo góndola.",
+                "Clave transporte": "01"
+            },
+            {
+                "Clave": "TPAF05",
+                "Descripcion": "Transporte de carga de gran peso y/o volumen de hasta 90 toneladas.",
+                "Clave transporte": "01"
+            },
+            {
+                "Clave": "TPAF06",
+                "Descripcion": "Transporte de carga especializada de gran peso y/o volumen de más 90 toneladas.",
+                "Clave transporte": "01"
+            },
+            {
+                "Clave": "TPAF07",
+                "Descripcion": "Transporte Privado de materiales y residuos peligrosos.",
+                "Clave transporte": "01"
+            },
+            {
+                "Clave": "TPAF08",
+                "Descripcion": "Autotransporte internacional de carga de largo recorrido.",
+                "Clave transporte": "01"
+            },
+            {
+                "Clave": "TPAF09",
+                "Descripcion": "Autotransporte internacional de carga especializada de materiales y residuos peligrosos de largo recorrido.",
+                "Clave transporte": "01"
+            },
+            {
+                "Clave": "TPAF10",
+                "Descripcion": "Autotransporte Federal de Carga General cuyo ámbito de aplicación comprende la franja fronteriza con Estados Unidos.",
+                "Clave transporte": "01"
+            },
+            {
+                "Clave": "TPAF11",
+                "Descripcion": "Autotransporte Federal de Carga Especializada cuyo ámbito de aplicación comprende la franja fronteriza con Estados Unidos.",
+                "Clave transporte": "01"
+            },
+            {
+                "Clave": "TPAF12",
+                "Descripcion": "Servicio auxiliar de arrastre en las vías generales de comunicación.",
+                "Clave transporte": "01"
+            },
+            {
+                "Clave": "TPAF13",
+                "Descripcion": "Servicio auxiliar de servicios de arrastre, arrastre y salvamento, y depósito de vehículos en las vías generales de comunicación.",
+                "Clave transporte": "01"
+            },
+            {
+                "Clave": "TPAF14",
+                "Descripcion": "Servicio de paquetería y mensajería en las vías generales de comunicación.",
+                "Clave transporte": "01"
+            },
+            {
+                "Clave": "TPAF15",
+                "Descripcion": "Transporte especial para el tránsito de grúas industriales con peso máximo de 90 toneladas.",
+                "Clave transporte": "01"
+            },
+            {
+                "Clave": "TPAF16",
+                "Descripcion": "Servicio federal para empresas arrendadoras servicio público federal.",
+                "Clave transporte": "01"
+            },
+            {
+                "Clave": "TPAF17",
+                "Descripcion": "Empresas trasladistas de vehículos nuevos.",
+                "Clave transporte": "01"
+            },
+            {
+                "Clave": "TPAF18",
+                "Descripcion": "Empresas fabricantes o distribuidoras de vehículos nuevos.",
+                "Clave transporte": "01"
+            },
+            {
+                "Clave": "TPAF19",
+                "Descripcion": "Autorización expresa para circular en los caminos y puentes de jurisdicción federal con configuraciones de tractocamión doblemente articulado.",
+                "Clave transporte": "01"
+            },
+            {
+                "Clave": "TPAF20",
+                "Descripcion": "Autotransporte Federal de Carga Especializada de fondos y valores.",
+                "Clave transporte": "01"
+            },
+            {
+                "Clave": "TPTM01",
+                "Descripcion": "Permiso temporal para navegación de cabotaje",
+                "Clave transporte": "02"
+            },
+            {
+                "Clave": "TPTA01",
+                "Descripcion": "Concesión y/o autorización para el servicio regular nacional y/o internacional para empresas mexicanas",
+                "Clave transporte": "03"
+            },
+            {
+                "Clave": "TPTA02",
+                "Descripcion": "Permiso para el servicio aéreo regular de empresas extranjeras",
+                "Clave transporte": "03"
+            },
+            {
+                "Clave": "TPTA03",
+                "Descripcion": "Permiso para el servicio nacional e internacional no regular de fletamento",
+                "Clave transporte": "03"
+            },
+            {
+                "Clave": "TPTA04",
+                "Descripcion": "Permiso para el servicio nacional e internacional no regular de taxi aéreo",
+                "Clave transporte": "03"
+            },
+            {
+                "Clave": "TPXX00",
+                "Descripcion": "Permiso no contemplado en el catálogo.",
+                "Clave transporte": "01,02,03"
+            }
+        ]
+    }
+}
