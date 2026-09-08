@@ -7,28 +7,31 @@ import { AuthProvider } from './context/AuthContext'
 import { DbProvider } from './context/DbContext'
 import { MlProvider } from './context/MlContext'
 import { SicofiProvider } from './context/SicofiContext'
+import { SicofiDataProvider } from './context/SicofiDataContext'
 
 function App() {
   return (
     <AuthProvider>
-      <DbProvider>
-        <SicofiProvider>
-          <MlProvider>
-            <BrowserRouter>
-              <main className='container mx-auto px-5'>
-                <Navbar />
-                <Routes>
-                  <Route element={<ProtectedRoute />}>
-                    <Route path='/' element={<HomePage />}></Route>
-                    <Route path='/home' element={<HomePage />}></Route>
-                  </Route>
-                  <Route path='/login' element={<LoginPage />}></Route>
-                </Routes>
-              </main>
-            </BrowserRouter>
-          </MlProvider>
-        </SicofiProvider>
-      </DbProvider>
+      <SicofiDataProvider>
+        <DbProvider>
+          <SicofiProvider>
+            <MlProvider>
+              <BrowserRouter>
+                <main className='container mx-auto px-5'>
+                  <Navbar />
+                  <Routes>
+                    <Route element={<ProtectedRoute />}>
+                      <Route path='/' element={<HomePage />}></Route>
+                      <Route path='/home' element={<HomePage />}></Route>
+                    </Route>
+                    <Route path='/login' element={<LoginPage />}></Route>
+                  </Routes>
+                </main>
+              </BrowserRouter>
+            </MlProvider>
+          </SicofiProvider>
+        </DbProvider>
+      </SicofiDataProvider>
     </AuthProvider >
   )
 }
